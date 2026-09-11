@@ -10,7 +10,7 @@ name, age, country = "Oriyo", 3, "Bangladesh"
 print(name)
 print(age)
 print(country)
-
+   
 
 # 2. Assign multiple numbers
 x, y, z = 10, 20, 30
