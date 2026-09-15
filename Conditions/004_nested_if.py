@@ -9,7 +9,6 @@
 # else:
 #     statement
 
-
 number = 15
 
 if number > 0:
