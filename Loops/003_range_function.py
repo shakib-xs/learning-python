@@ -1,6 +1,8 @@
 # Python Range Function
 
-""" The range() function generates a sequence of numbers.  """
+""" 
+The range() function generates a sequence of numbers.  
+"""
 
 # Syntax:
 # range(stop)
