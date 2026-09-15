@@ -1,6 +1,14 @@
 # Python Variable Naming Rules
-# 
 
+# Rules:
+# => Variable name must start with a letter (a-z, A-Z) or underscore (_).
+# => Variable name cannot start with a number.
+# => Variable name can contain letters, numbers, and underscores.
+# => Variable names are case-sensitive.
+# => Spaces are not allowed in variable names.
+# => Python keywords cannot be used as variable names.
+# => Use descriptive and meaningful names.
+# => Use snake_case for multiple words.
 
 # Rule 1: Start with a letter or underscore
 name = "Shakib"
