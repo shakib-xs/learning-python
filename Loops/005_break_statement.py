@@ -1,6 +1,8 @@
 # Python Break Statement
 
-""" The break statement is used to stop a loop immediately.  """
+""" 
+The break statement is used to stop a loop immediately. 
+"""
 
 # Syntax:
 # for variable in sequence:
