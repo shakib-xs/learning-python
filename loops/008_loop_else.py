@@ -11,7 +11,6 @@ finishes normally without using break.
 # else:
 #     statement
 
-
 #   For loop with else
 for number in range(1, 6):
     print(number)
