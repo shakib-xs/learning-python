@@ -10,7 +10,6 @@ and moves to the next iteration.
 #     if condition:
 #         continue
 
-
 # Skip the number 5
 for number in range(1, 11):
     if number == 5:
