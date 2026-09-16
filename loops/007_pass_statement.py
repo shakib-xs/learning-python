@@ -11,7 +11,7 @@
 #     pass
 # 
 # or
-# 
+#
 # for variable in sequence:
 #     pass
 
