@@ -11,20 +11,17 @@ such as a list, tuple, string, or range.
 
 
 #  Loop through a list
-
 numbers = [1, 2, 3, 4, 5]
 for number in numbers:
     print(number)
 
 
 #    Loop through a string
-
 text = "Python"
 for character in text:
     print(character)
 
 
-#   3. Using for loop with range
-
+#     Using for loop with range
 for number in range(5):
     print(number)
