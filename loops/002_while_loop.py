@@ -9,7 +9,6 @@ as long as the condition is True.
 # while condition:
 #     statement
 
-
 number = 1
 while number <= 5:
     print(number)
