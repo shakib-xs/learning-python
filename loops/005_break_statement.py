@@ -7,7 +7,6 @@
 #     if condition:
 #         break
 
-
 # Stop the loop when number becomes 5
 for number in range(1, 11):
     if number == 5:
