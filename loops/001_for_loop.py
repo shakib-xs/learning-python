@@ -24,4 +24,4 @@ for character in text:
 
 #     Using for loop with range
 for number in range(5):
-    print(number)
+    print(number
