@@ -1,142 +1,77 @@
-# Learning Python 🐍
+# 🐍 Learning Python
 
-A structured Python learning repository focused on building strong programming fundamentals through hands-on coding and practical examples.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&pause=1000&color=3776AB&center=true&vCenter=true&width=600&lines=Learning+Python+Step+by+Step;Building+Strong+Programming+Foundations;Code.+Build.+Learn.+Repeat." alt="Typing Animation" />
+</p>
 
-This repository contains Python concepts organized from beginner to advanced level, with each topic separated into clearly numbered files for easy learning and reference.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-Learning-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/Status-In%20Progress-orange?style=for-the-badge" alt="Status" />
+</p>
 
 ---
 
-## 📚 Learning Roadmap
+## 📖 About
 
-The repository follows this learning path:
+This repository documents my journey of learning Python from the fundamentals to more advanced concepts.
+
+Each topic is organized into separate, numbered Python files to make the learning process structured, simple, and easy to follow.
+
+> **Learn → Practice → Understand → Improve**
+
+---
+
+## 🗺️ Learning Roadmap
 
 ```text
-Basics
-  ↓
-Variables
-  ↓
-Conditions
-  ↓
-Loops
-  ↓
-Functions
-  ↓
-Modules
-  ↓
-File Handling
-  ↓
-Regular Expressions
-  ↓
-Object-Oriented Programming
-  ↓
-Decorators
+┌───────────────┐
+│    Basics     │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│   Variables   │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│  Conditions   │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│     Loops     │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│   Functions   │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│    Modules    │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│ File Handling │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│     Regex     │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│      OOP      │
+└───────┬───────┘
+        ↓
+┌───────────────┐
+│   Decorators  │
+└───────────────┘
 ```
 
 ---
 
-## 📂 Repository Structure
+## 📚 Topics
 
-```text
-learning-python/
-│
-├── basics/
-│   ├── 001_hello_world.py
-│   ├── 002_print.py
-│   ├── 003_comments.py
-│   ├── 004_input.py
-│   ├── 005_data_types.py
-│   ├── 006_type_conversion.py
-│   ├── 007_arithmetic_operators.py
-│   ├── 008_comparison_operators.py
-│   ├── 009_logical_operators.py
-│   └── 010_assignment_operators.py
-│
-├── variables/
-│   ├── 001_variable_basics.py
-│   ├── 002_variable_naming.py
-│   ├── 003_multiple_assignment.py
-│   ├── 004_variable_reassignment.py
-│   ├── 005_swapping_variables.py
-│   └── 006_constants.py
-│
-├── conditions/
-│   ├── 001_if_statement.py
-│   ├── 002_if_else.py
-│   ├── 003_if_elif_else.py
-│   ├── 004_nested_if.py
-│   ├── 005_short_hand_if.py
-│   └── 006_ternary_operator.py
-│
-├── loops/
-│   ├── 001_for_loop.py
-│   ├── 002_while_loop.py
-│   ├── 003_range_function.py
-│   ├── 004_nested_loop.py
-│   ├── 005_break_statement.py
-│   ├── 006_continue_statement.py
-│   ├── 007_pass_statement.py
-│   └── 008_loop_else.py
-│
-├── functions/
-│   ├── 001_function_basics.py
-│   ├── 002_function_parameters.py
-│   ├── 003_return_statement.py
-│   ├── 004_default_arguments.py
-│   ├── 005_keyword_arguments.py
-│   ├── 006_arbitrary_arguments.py
-│   ├── 007_scope.py
-│   └── 008_lambda_function.py
-│
-├── modules/
-│   ├── 001_import_module.py
-│   ├── 002_from_import.py
-│   ├── 003_module_alias.py
-│   ├── 004_builtin_modules.py
-│   └── 005_custom_module.py
-│
-├── file-handling/
-│   ├── 001_open_file.py
-│   ├── 002_read_file.py
-│   ├── 003_write_file.py
-│   ├── 004_append_file.py
-│   ├── 005_close_file.py
-│   └── 006_with_statement.py
-│
-├── regex/
-│   ├── 001_regex_basics.py
-│   ├── 002_search.py
-│   ├── 003_findall.py
-│   ├── 004_match.py
-│   ├── 005_split.py
-│   ├── 006_substitute.py
-│   └── 007_email_validation.py
-│
-├── oop/
-│   ├── 001_class_and_object.py
-│   ├── 002_constructor.py
-│   ├── 003_class_methods.py
-│   ├── 004_instance_variables.py
-│   ├── 005_class_variables.py
-│   ├── 006_inheritance.py
-│   ├── 007_encapsulation.py
-│   └── 008_polymorphism.py
-│
-├── decorators/
-│   ├── 001_decorator_basics.py
-│   ├── 002_decorator_with_arguments.py
-│   ├── 003_returning_values.py
-│   └── 004_multiple_decorators.py
-│
-└── README.md
-```
-
----
-
-## 🧩 Topics Covered
-
-### 01. Basics
-
-Fundamental Python concepts for getting started.
+<details>
+<summary><strong>01 · Basics</strong></summary>
 
 * Hello World
 * `print()`
@@ -149,40 +84,37 @@ Fundamental Python concepts for getting started.
 * Logical Operators
 * Assignment Operators
 
----
+</details>
 
-### 02. Variables
-
-Understanding how Python stores and manages values.
+<details>
+<summary><strong>02 · Variables</strong></summary>
 
 * Variable Basics
-* Variable Naming Rules
+* Variable Naming
 * Multiple Assignment
 * Variable Reassignment
 * Swapping Variables
 * Constants
 
----
+</details>
 
-### 03. Conditions
+<details>
+<summary><strong>03 · Conditions</strong></summary>
 
-Learning how to make decisions in Python programs.
-
-* `if` Statement
+* `if`
 * `if-else`
 * `if-elif-else`
 * Nested `if`
 * Short-Hand `if`
 * Ternary Operator
 
----
+</details>
 
-### 04. Loops
+<details>
+<summary><strong>04 · Loops</strong></summary>
 
-Understanding repetition and iteration.
-
-* `for` Loop
-* `while` Loop
+* `for`
+* `while`
 * `range()`
 * Nested Loops
 * `break`
@@ -190,51 +122,47 @@ Understanding repetition and iteration.
 * `pass`
 * Loop `else`
 
----
+</details>
 
-### 05. Functions
-
-Learning how to create reusable and organized code.
+<details>
+<summary><strong>05 · Functions</strong></summary>
 
 * Function Basics
-* Function Parameters
-* `return` Statement
+* Parameters
+* `return`
 * Default Arguments
 * Keyword Arguments
 * Arbitrary Arguments
-* Variable Scope
+* Scope
 * Lambda Functions
 
----
+</details>
 
-### 06. Modules
+<details>
+<summary><strong>06 · Modules</strong></summary>
 
-Learning how to organize and reuse Python code.
-
-* Importing Modules
+* Import Module
 * `from ... import`
-* Module Aliases
+* Module Alias
 * Built-in Modules
 * Custom Modules
 
----
+</details>
 
-### 07. File Handling
+<details>
+<summary><strong>07 · File Handling</strong></summary>
 
-Working with files and stored data.
-
-* Opening Files
-* Reading Files
-* Writing Files
-* Appending Data
-* Closing Files
+* Open File
+* Read File
+* Write File
+* Append File
+* Close File
 * `with` Statement
 
----
+</details>
 
-### 08. Regular Expressions
-
-Learning pattern matching and text validation using Regex.
+<details>
+<summary><strong>08 · Regular Expressions</strong></summary>
 
 * Regex Basics
 * `search()`
@@ -244,13 +172,12 @@ Learning pattern matching and text validation using Regex.
 * `sub()`
 * Email Validation
 
----
+</details>
 
-### 09. Object-Oriented Programming
+<details>
+<summary><strong>09 · Object-Oriented Programming</strong></summary>
 
-Learning Python's object-oriented programming concepts.
-
-* Classes and Objects
+* Classes & Objects
 * Constructors
 * Class Methods
 * Instance Variables
@@ -259,97 +186,154 @@ Learning Python's object-oriented programming concepts.
 * Encapsulation
 * Polymorphism
 
----
+</details>
 
-### 10. Decorators
-
-Understanding Python decorators and function modification.
+<details>
+<summary><strong>10 · Decorators</strong></summary>
 
 * Decorator Basics
 * Decorators with Arguments
 * Returning Values
 * Multiple Decorators
 
+</details>
+
+---
+
+## 📁 Repository Structure
+
+```text
+learning-python/
+│
+├── basics/
+├── variables/
+├── conditions/
+├── loops/
+├── functions/
+├── modules/
+├── file-handling/
+├── regex/
+├── oop/
+├── decorators/
+│
+└── README.md
+```
+
 ---
 
 ## 📊 Progress
 
-| Section       |  Files | Status |
-| ------------- | -----: | :----: |
-| Basics        |     10 |    ✅   |
-| Variables     |      6 |    ✅   |
-| Conditions    |      6 |    ✅   |
-| Loops         |      8 |    ✅   |
-| Functions     |      8 |    ✅   |
-| Modules       |      5 |    ✅   |
-| File Handling |      6 |    ✅   |
-| Regex         |      7 |    ✅   |
-| OOP           |      8 |    ✅   |
-| Decorators    |      4 |    ✅   |
-| **Total**     | **68** | **🚀** |
+|  #  | Topic         |  Files | Status |
+| :-: | ------------- | :----: | :----: |
+|  01 | Basics        |   10   |    ✅   |
+|  02 | Variables     |    6   |    ✅   |
+|  03 | Conditions    |    6   |    ✅   |
+|  04 | Loops         |    8   |    ✅   |
+|  05 | Functions     |    8   |    ✅   |
+|  06 | Modules       |    5   |    ✅   |
+|  07 | File Handling |    6   |    ✅   |
+|  08 | Regex         |    7   |    ✅   |
+|  09 | OOP           |    8   |    ✅   |
+|  10 | Decorators    |    4   |    ✅   |
+|     | **Total**     | **68** |   🚀   |
 
 ---
 
-## 🎯 Learning Goals
+## 🧠 What I'm Learning
 
-The main goals of this repository are:
+```text
+✓ Python Fundamentals
+✓ Problem Solving
+✓ Clean Code
+✓ Functions & Modules
+✓ File Handling
+✓ Regular Expressions
+✓ Object-Oriented Programming
+✓ Python Decorators
+```
+
+---
+
+## 🛠️ Tools
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" />
+</p>
+
+---
+
+## 🎯 Goals
 
 * Build a strong Python foundation
 * Understand programming fundamentals
-* Practice writing clean and readable code
-* Learn Python concepts step by step
+* Write clean and readable code
 * Improve problem-solving skills
-* Understand Object-Oriented Programming
-* Learn how to structure and organize Python code
-* Build a solid foundation for advanced Python development
+* Understand OOP deeply
+* Learn advanced Python concepts
+* Build a foundation for software development
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🚀 Next Steps
 
-* **Language:** Python
-* **Editor:** Visual Studio Code
-* **Version Control:** Git & GitHub
+After completing the core Python concepts:
 
----
-
-## 🧠 Learning Approach
-
-Each file focuses on a specific Python concept.
-
-The examples are kept simple and practical so that the concepts can be understood through actual code rather than only theoretical explanations.
-
-The numbered file structure also makes it easier to follow the topics in the intended learning order.
-
----
-
-## 📌 Repository Philosophy
-
-> **Learn → Practice → Understand → Improve**
-
-This repository is a continuous learning journey.
-New concepts, examples, and improvements will be added as learning progresses.
+```text
+Advanced Python
+      ↓
+Data Structures & Algorithms
+      ↓
+Exception Handling
+      ↓
+Iterators & Generators
+      ↓
+APIs
+      ↓
+Databases
+      ↓
+Automation
+      ↓
+Web Development
+```
 
 ---
 
-## 🚀 Future Direction
+## 📈 Learning Progress
 
-After completing the core Python concepts, the next stage can focus on:
+```text
+Python Fundamentals
+████████████████████████████████████████ 100%
 
-* Advanced Python
-* Data Structures & Algorithms (DSA)
-* Exception Handling
-* Iterators & Generators
-* Working with APIs
-* Databases
-* Web Development
-* Automation
-* Python-based Software Development
+Core Concepts
+████████████████████████████████████████ 100%
+
+Advanced Concepts
+████████████████░░░░░░░░░░░░░░░░░░░░░░  40%
+```
 
 ---
 
-## 📈 Progress Tracking
+## 💡 Repository Philosophy
 
-This repository will continue to evolve as new Python concepts are learned and practiced.
+> **Consistency beats intensity.**
 
-**Code. Build. Learn. Repeat.** 🐍
+Small improvements every day lead to stronger programming skills over time.
+
+This repository will continue to evolve as new concepts are learned and practiced.
+
+---
+
+<p align="center">
+
+### 🐍 Keep Coding. Keep Learning.
+
+**Code. Build. Learn. Repeat.**
+
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=3776AB&height=100&section=footer" />
+</p>
